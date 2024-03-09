@@ -1,0 +1,38 @@
+.bg {
+    background-color: #515151;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    color: tomato;
+}
+
+.bucketlist {
+    margin-top: 1em;
+    padding: 2em;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    border-radius: 1em;
+    background-color: #313131;
+}
+.bucket {
+    background-color: aliceblue;
+    color: #515151;
+    padding: 1em 2em;
+    border-radius: 6px;
+    font-weight: 700;
+    cursor: pointer;
+    width: 200px;
+}
+.bucket:hover {
+    background-color: #dc8c8c;
+    color: #fff;
+}
